@@ -4,6 +4,18 @@
   "theme_color": "#fff",
   "background_color": "#fff",
   "display": "standalone",
+  "icons": [
+    {
+      "src": "pwa-icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "pwa-icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/"
