@@ -1,9 +1,11 @@
 "use client";
 
+import Link from "next/link";
+
 export default function SignIn() {
   return (
     <>
-      <a href="/api/auth/login">Sign In</a>
+      <Link href="/api/auth/login">Sign In</Link>
     </>
   );
 }
