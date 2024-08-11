@@ -3,7 +3,7 @@ export default async function handler(req: any, res: any) {
 
   const clientId = process.env.GOOGLE_CLIENT_ID as string;
   const clientSecret = process.env.GOOGLE_CLIENT_SECRET as string;
-  const redirectUri: string = 'http://localhost:3000/api/auth/callback';
+  const redirectUri: string = 'https://pruebas-bice-eight.vercel.app/api/auth/callback';
 
   const tokenResponse = await fetch('https://oauth2.googleapis.com/token', {
     method: 'POST',
